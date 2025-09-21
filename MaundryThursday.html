@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .holiday-info {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .holiday-info th, .holiday-info td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .holiday-info th {
+            background-color: #f2f2f2;
+            font-size: 18px;
+        }
+        .holiday-info tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            width: 600px;
+            height: 550px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+        .back-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            
+        }
+        .back-btn:hover {
+            background-color: #45a049;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Regular Holiday</h1>
+        <table class="holiday-info">
+            <tr>
+                <th>Holiday Name</th>
+                <td>Maundry Thursday</td>
+            </tr>
+            <tr>
+                <th>What Do People Do?</th>
+                <td>Maundy Thursday marks the event before Jesus Christ was crucified on the cross. Aside from fasting, most Filipinos refrain from activities such as drinking alcohol, eating meat and intercourse with their partners. Maundy Thursday is highlighted by the re-enactment of the Last Supper, which is organized by churches. It is customary for Filipinos to visit seven churches on this particular day. This is called Visita Iglesia which is a Spanish word for “to visit churches”. Some people visit 14 churches to symbolize the 14 stations of the cross.</td>
+            </tr>
+        </table>
+
+        <div class="image-container">
+            <img src="data:image/jpeg;base64,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">
+            <p>Maundy Thursday, which is the day before Good Friday, is a popular Christian holiday in countries such as the Philippines. It is a regular non-working holiday in the Philippines.</p>
+        </div>
+            <div class="footer">
+                <a class="back-btn" href="calendar.html">Back to Calendar</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
