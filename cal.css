@@ -27,6 +27,7 @@
     
     padding: 10px;
     text-align: center;
+    border-radius: 20px;
 }
 
 .Month {
@@ -96,4 +97,5 @@ div {
     text-shadow:
 2px 2px 0 #000;
 }
+
 
